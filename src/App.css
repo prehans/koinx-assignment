@@ -1,0 +1,73 @@
+
+.main{
+  /* width: 1328px; */
+height: 700px;
+margin-top: 0px;
+margin-left: 56px;
+margin-right: 56px;
+gap: 20px;
+
+/* background-color: #61dafb; */
+}
+
+h1{
+  font-family: 'Inter';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.left {
+  width: 950px;       /*881*/
+  height: 200px;
+  gap: 20px;
+  /* background-color: pink; */
+}
+.calculator {
+  width: 950px;
+  height: 700px;
+  gap: 20px;
+  /* background-color: aquamarine; */
+  position: relative;
+}
+
+.insideCalculator {
+  width: 850px;
+  height: 730px;
+  margin-top: 35px;
+  margin-left: 79px;
+  padding: 8px;
+  gap: 8px;
+  background-color: #FFF;
+  position: absolute;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  
+}
+.insideCalculator .calc{
+  width: 734px;
+  margin-left: 79px;
+  margin-right: 79px;
+  height: 200px;
+  /* gap: 28px; */
+  /* background-color: antiquewhite; */
+}
+
+.insideCalculator .calc .first{
+  width: 734px;
+  height: 48px;
+  gap: 53px;
+  /* background-color: beige; */
+}
+.insideCalculator .calc .third{
+  gap: 62px;
+}
+.insideCalculator .calc .fourth{
+gap : 62px;
+}
+.insideCalculator .calc .fifth{
+  gap : 62px
+}
+.insideCalculator .calc .sixth{
+  gap : 62px
+}
